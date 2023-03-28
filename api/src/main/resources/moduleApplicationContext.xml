@@ -55,4 +55,11 @@
             </list>
         </property>
     </bean>
+    <bean id="konzaconfig.konzaconfig.registration" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+        <constructor-arg value="konzaconfig.registration"/>
+        <constructor-arg value="Registration"/>
+        <constructor-arg value="registration/registration.page"/>
+        <constructor-arg value="konzaconfig:apps/registration.jpg"/>
+        <constructor-arg value="100"/>
+    </bean>
 </beans>
