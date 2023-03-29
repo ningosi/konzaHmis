@@ -59,7 +59,37 @@
         <constructor-arg value="konzaconfig.registration"/>
         <constructor-arg value="Registration"/>
         <constructor-arg value="registration/registration.page"/>
-        <constructor-arg value="konzaconfig:apps/registration.jpg"/>
+        <constructor-arg value="konzaconfig:apps/reg_landing.png"/>
         <constructor-arg value="100"/>
+    </bean>
+
+    <bean id="konzaconfig.konzaconfig.triage" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+        <constructor-arg value="konzaconfig.triage"/>
+        <constructor-arg value="Triage"/>
+        <constructor-arg value="registration/triage.page"/>
+        <constructor-arg value="konzaconfig:apps/triage_landing.png"/>
+        <constructor-arg value="101"/>
+    </bean>
+
+    <bean id="konzaconfig.konzaconfig.queue" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+        <constructor-arg value="konzaconfig.queue"/>
+        <constructor-arg value="Queue"/>
+        <constructor-arg value="registration/queue.page"/>
+        <constructor-arg value="konzaconfig:apps/queue_landing.png"/>
+        <constructor-arg value="102"/>
+    </bean>
+    <bean id="konzaconfig.konzaconfig.opd" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+        <constructor-arg value="konzaconfig.opd"/>
+        <constructor-arg value="OPD"/>
+        <constructor-arg value="registration/opd.page"/>
+        <constructor-arg value="konzaconfig:apps/opd_landing.png"/>
+        <constructor-arg value="103"/>
+    </bean>
+    <bean id="konzaconfig.konzaconfig.lab" factory-bean="kenyacore.appFactoryBean" factory-method="createInstance">
+        <constructor-arg value="konzaconfig.lab"/>
+        <constructor-arg value="Lab"/>
+        <constructor-arg value="registration/lab.page"/>
+        <constructor-arg value="konzaconfig:apps/lab_landing.png"/>
+        <constructor-arg value="102"/>
     </bean>
 </beans>
